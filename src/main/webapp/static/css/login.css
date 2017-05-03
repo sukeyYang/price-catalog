@@ -1,0 +1,22 @@
+#wrap{margin-top:10px;background: none repeat scroll 0% 0% transparent;}
+.title{color: #4986B3;font-size: 18px;margin: 20px 0px 10px;}
+.form_group_box{width:500px;margin:30px auto 0px;font-size:14px;}
+.pwdLabel{text-align:center;height:38px;line-height:36px;background:#4986B3;color:#fff}
+.pwdBox{border:2px solid #4986B3;margin-top:10px;}
+.form_group{margin:0 auto;margin-top:10px;position:relative;}
+.form_group i.star,.form_group em.star{position:absolute;width:7px;height:8px;top: 11px;left: 0;background:url("../images/star.png") no-repeat;}
+.form_group span{height:30px;line-height:30px;float:left;margin-right:10px;width:100px;text-align:right;}
+.form_group input{height:20px;padding:5px;width:250px;float:left;border:1px solid #ddd;color:#535353}
+.form_group div{height:30px;line-height:30px;width:250px;float:left;}
+.form_group select{height: 30px;float: left;border: 1px solid #DDD;color: #535353;}
+.form_group label{height:30px;line-height:30px;float:left;width:110px;margin-left:10px;}
+.form_group i{position:absolute;width:20px;height:20px;top: 5px;right:100px;}
+.icon_success{background:url(../images/login_icon.png) 20px 22px;}
+.error{color:#B02F2A;}
+.focus{color:#666666;}
+.btnBox{margin-top:20px;padding:6px 0px 4px;text-align:center;height:30px;background:#4986B3;color:#fff}
+.btn{display:block;margin:0px auto;width: 100px;text-align: center;height: 30px;color: #FFF;background:#4986B3;cursor:pointer}
+.tip{color:#b02f2a;text-align:center;margin-top:30px;}
+.tip a{color:#4986B3}
+.huoqubtn{display:block;height:40px;line-height:40px;text-align:center;font-size:18px;background:#4986B3;color:#fff;margin-top:10px;}
+a.huoqubtn{color:#fff}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+*{font-family:'微软雅黑';}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size:100%}
+article, aside, details, figcaption, figure, footer, header, menu, nav, section { display: block; }
+body { font-size: 12px; *font-size: small; color: #535353; font-family:'微软雅黑'; }
+html { -webkit-font-smoothing: antialiased; }
+div { word-break: break-all; word-wrap: break-word; zoom: 1;}
+*,ul,ol {margin:0; padding:0;list-style: none; }
+ol { list-style-type: decimal;}
+a:hover, a:active { outline: none;}
+a{ color: #535353; text-decoration: none;outline: none; }
+a:link{ color: #535353; text-decoration: none; }
+a:visited{ color: #535353; text-decoration: none; }
+a:hover{ color: #535353; text-decoration: none; }
+a:active{ color: #535353; text-decoration: none; }
+.clear{ overflow:hidden;zoom:1}
+.hidden { display:none}
+input { border:0 none;}
+em { font-style:normal}
+input::-webkit-input-placeholder {color:#ccc;}
+input:-moz-placeholder {color:#ccc;opacity:1;}
+input::-moz-placeholder {color:#ccc;opacity:1;}
+input:-ms-input-placeholder {color:#ccc;}
+.fl{float:left;}.fr{float:right;}.pr{position:relative;}.pa{position:absolute;}
+.pd10{padding:10px;}.pd20{padding:20px;}.pd30{padding:30px;}.pdtb10{padding:10px 0px;}
+.pdl10{padding-left:10px;}.pdr10{padding-right:10px;}.pdt10{padding-top:10px;}.pdb10{padding-bottom:10px;}
+.tc{text-align:center;}
+.mg10{margin:10px;}.mg20{margin:20px;}.mg30{margin:30px;}
+.mgr5{margin-right:5px;}.mgl5{margin-left:5px;}.mgt5{margin-top:5px;}.mgb5{margin-bottom:5px;}
+.mgr10{margin-right:10px;}.mgl10{margin-left:10px;}.mgt10{margin-top:10px;}.mgb10{margin-bottom:10px;}
+.mgr20{margin-right:20px;}.mgl20{margin-left:20px;}.mgt20{margin-top:20px;}.mgb20{margin-bottom:20px;}
+.mgr30{margin-right:30px;}.mgl30{margin-left:30px;}.mgt30{margin-top:30px;}.mgb30{margin-bottom:30px;}
+.font14{font-size:14px;}.mgt50{margin-top:50px;}
+.row1{background:#4986B3;padding:0px 20px;line-height:50px;height:50px;border-radius:7px;color:#fff;font-size:20px;}
+.annbutton{background:#4986B3;}
