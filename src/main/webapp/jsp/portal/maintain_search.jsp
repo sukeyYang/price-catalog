@@ -42,10 +42,10 @@
     <a href="<%=basePath%>/maintain/search">维修计划</a>
   </div>
   <div class="container u-oh">
-    <div class="banner7"></div>
-    <form class="ma-query" action="suggest" method="post">
+    <%--<div class="banner7"></div>--%>
+    <form class="query" action="suggest" method="post">
       <div class="input-item">
-        <select name="brand" id="carBrand" onchange="optionSeries()">
+        <select name="brand" id="carBrand" class="form-column" onchange="optionSeries()">
           <option value="">选择品牌</option>
           <option value="别克">别克</option>
           <option value="雪佛兰">雪佛兰</option>
@@ -53,23 +53,21 @@
         </select>
       </div>
       <div class="input-item">
-        <select name="series" id="carSeries">
+        <select name="series" id="carSeries" class="form-column">
           <option value="">选择车系</option>
-
-
         </select>
       </div>
 
-      <div class="input-item">
-        <input name="mile" type="text" placeholder="行驶公里数">
-        <span>公里</span>
+      <div class="input-item S">
+        <input name="mile" type="text" placeholder="行驶公里数" class="form-column">
+        <span>万公里</span>
       </div>
 
       <div class=" input-item">
-        <input id="dateInput" class="birthday" type="text" name="time"
+        <input id="dateInput" class="birthday form-column" type="text" name="time"
                placeholder="新车上路时间">
       </div>
-      <button type="submit" class="query-btn ml-22">查询</button>
+      <button type="submit" class="btn-submit ml-22">查询</button>
     </form>
   </div>
 </div>

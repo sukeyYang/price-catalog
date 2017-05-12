@@ -42,7 +42,7 @@
   <div class="container u-oh">
     <form class="query" action="parts-list" method="POST">
       <div class="input-item" id="type">
-        <select name="partType" id="partType">
+        <select name="partType" id="partType" class="form-column">
           <option selected="selected" class="type-opt"  value="">配件类型</option>
           <option class="fluid-opt">油液</option>
           <option class="tire-opt">轮胎</option>
@@ -63,7 +63,7 @@
         </select>
       </div>
       <div class="input-item fluid">
-        <select name="oilType">
+        <select name="oilType" class="form-column">
           <option value="">选择油液</option>
           <option value="冷却液">冷却液</option>
           <option>制动液</option>
@@ -73,7 +73,7 @@
         </select>
       </div>
       <div class="input-item">
-        <select name="carBrand" id="carBrand" onchange="optionSeries()">
+        <select name="carBrand" id="carBrand" class="form-column" onchange="optionSeries()">
           <option value="">选择品牌</option>
           <option value="别克">别克</option>
           <option value="凯迪拉克">凯迪拉克</option>
@@ -81,27 +81,27 @@
         </select>
       </div>
       <div class="input-item">
-        <select name="carSeries" id="carSeries" onchange="optionVehicleYear()">
+        <select name="carSeries" id="carSeries" class="form-column" onchange="optionVehicleYear()">
           <option value="">选择车系</option>
 
         </select>
       </div>
       <div class="input-item">
-        <select name="vehicleYear" id="vehicleYear" onchange="optionEmission()">
+        <select name="vehicleYear" id="vehicleYear" class="form-column" onchange="optionEmission()">
           <option value="">选择年款</option>
         </select>
       </div>
       <div class="input-item displacement">
-        <select name="vehicleEmission" id="vehicleEmission">
+        <select name="vehicleEmission" id="vehicleEmission" class="form-column">
           <option value="">选择排量</option>
         </select>
       </div>
       <div class="input-item tire">
-        <select name="tireSize" id="tireSize">
+        <select name="tireSize" id="tireSize" class="form-column">
           <option value="">选择规格</option>
         </select>
       </div>
-      <button type="submit" class="query-btn">查询</button>
+      <button type="submit" class="btn-submit">查询</button>
     </form>
   </div>
 </div>
